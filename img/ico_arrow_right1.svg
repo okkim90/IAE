@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
+  <g id="more_btn" transform="translate(-3155 -651)">
+    <circle id="frame" cx="27" cy="27" r="27" transform="translate(3155 651)" fill="#23a0ef"/>
+    <g id="more_ic" transform="translate(3178.149 668.5)">
+      <path id="패스_20" data-name="패스 20" d="M82.107,6357l4.955,5-4.955,5" transform="translate(-77.051 -6352.495)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="패스_46" data-name="패스 46" d="M15,0H1" transform="translate(-5.149 9.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

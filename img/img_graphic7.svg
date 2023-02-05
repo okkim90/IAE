@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110" height="128" viewBox="0 0 110 128">
+  <defs>
+    <filter id="패스_4228" x="66.309" y="91.832" width="33.149" height="28.758" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Img" transform="translate(-1249.857 -691)">
+    <circle id="타원_44" data-name="타원 44" cx="55" cy="55" r="55" transform="translate(1249.857 700)" fill="#f9f9f9"/>
+    <g id="그룹_10353" data-name="그룹 10353" transform="translate(1276.122 691)">
+      <g id="그룹_10351" data-name="그룹 10351" transform="translate(2.058 0)">
+        <g id="사각형_882" data-name="사각형 882" transform="translate(-0.323 0)" fill="#fff" stroke="#333" stroke-width="1.5">
+          <rect width="54" height="104" rx="6" stroke="none"/>
+          <rect x="0.75" y="0.75" width="52.5" height="102.5" rx="5.25" fill="none"/>
+        </g>
+        <rect id="사각형_884" data-name="사각형 884" width="12" height="2" rx="1" transform="translate(20.677 5)" fill="#dfdfdf"/>
+        <circle id="타원_38" data-name="타원 38" cx="3.5" cy="3.5" r="3.5" transform="translate(8.677 57)" fill="#333"/>
+        <circle id="타원_39" data-name="타원 39" cx="3.5" cy="3.5" r="3.5" transform="translate(18.677 57)" fill="#333"/>
+        <circle id="타원_40" data-name="타원 40" cx="3.5" cy="3.5" r="3.5" transform="translate(28.677 57)" fill="#333"/>
+        <circle id="타원_41" data-name="타원 41" cx="3.5" cy="3.5" r="3.5" transform="translate(38.677 57)" fill="#333"/>
+        <g id="그룹_10355" data-name="그룹 10355" transform="translate(14.677 25)">
+          <circle id="타원_42" data-name="타원 42" cx="12" cy="12" r="12" transform="translate(0)" fill="#90cff7"/>
+          <g id="그룹_10352" data-name="그룹 10352" transform="translate(6 5)">
+            <ellipse id="타원_4" data-name="타원 4" cx="3.201" cy="3.199" rx="3.201" ry="3.199" transform="translate(2.799)" fill="#fff"/>
+            <path id="패스_4227" data-name="패스 4227" d="M6,0c3.314,0,6,1.807,6,4.037,0,1.081-2.823,1.638-6,1.672-2.817.033-6-.524-6-1.672C0,1.807,2.686,0,6,0Z" transform="translate(0 8.29)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+      <ellipse id="타원_43" data-name="타원 43" cx="21.5" cy="23" rx="21.5" ry="23" transform="translate(35.735 82)" fill="#ffc333"/>
+      <g transform="matrix(1, 0, 0, 1, -26.27, 0)" filter="url(#패스_4228)">
+        <path id="패스_4228-2" data-name="패스 4228" d="M7.267,18.258a2.153,2.153,0,0,1-1.635-.753L-.981,9.782a2.155,2.155,0,1,1,3.27-2.806L7.267,12.79,18.86-.747a2.155,2.155,0,1,1,3.27,2.806L8.9,17.505A2.153,2.153,0,0,1,7.267,18.258Z" transform="translate(72.31 96.83)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

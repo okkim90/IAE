@@ -1,0 +1,12 @@
+<svg id="Frame_511_1_" data-name="Frame 511 (1)" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="사각형_878" data-name="사각형 878" width="24" height="24" fill="none"/>
+  <rect id="사각형_879" data-name="사각형 879" width="20" height="20" transform="translate(2 2)" fill="none"/>
+  <g id="타원_22" data-name="타원 22" transform="translate(2 2)" fill="none" stroke="#333" stroke-width="2">
+    <circle cx="8.5" cy="8.5" r="8.5" stroke="none"/>
+    <circle cx="8.5" cy="8.5" r="7.5" fill="none"/>
+  </g>
+  <g id="사각형_880" data-name="사각형 880" transform="translate(14.757 16.172) rotate(-45)" fill="none" stroke="#333" stroke-width="1">
+    <rect width="2" height="8" rx="1" stroke="none"/>
+    <rect x="0.5" y="0.5" width="1" height="7" rx="0.5" fill="none"/>
+  </g>
+</svg>
