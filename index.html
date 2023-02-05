@@ -683,8 +683,12 @@
 
 
 	$('.mv_search_trigger').on('click',function(){
-		$('.mv_search').addClass('on');
-		$('.mv_search_input').focus();
+		let mv_search = $('.mv_search');
+		let $input = $('.mv_search_input');
+		let mv_search_pos = mv_search.offset().top;
+		mv_search.addClass('on');
+		$input.focus();
+		$('html, body').animate({'scrollTop':mv_search_pos - 200},400,'easeInOutCubic');
 	});
 	$('.btn_close_search').on('click',function(){
 		$('.mv_search').removeClass('on');
