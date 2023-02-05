@@ -392,8 +392,11 @@ $breakpoint-m: 1260px;
 
 }
 
-.main_sec {
+section.main {
     overflow: hidden;
+}
+.main_sec {
+    
     &_wrap {
         padding: 130px 0 100px;
         @include mobile { 

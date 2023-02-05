@@ -124,6 +124,8 @@
 
 @media only screen and (max-width: 1260px) { .main_visual .mv_bot .inner .mv_search_trigger { padding: 0 16px; font-size: 16px; } }
 
+section.main { overflow: hidden; }
+
 .main_sec_wrap { padding: 130px 0 100px; }
 
 @media only screen and (max-width: 1260px) { .main_sec_wrap { padding: 60px 0; } }
