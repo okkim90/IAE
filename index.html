@@ -706,9 +706,17 @@
 		}
 	});
 
-	$(window).on('resize',function(){
+	$(window).on('load resize',function(){
 		main_pf.update();
 		main_product.update();
+		let win_h = $(this).height();
+		if($(this).outerWidth() < 1260){
+			$('.mv_slide_item').outerHeight(win_h - 60);
+		}else{
+			$('.mv_slide_item').outerHeight(800);
+		}
+		
+
 	});
 
 	const main_product = new Swiper('.main_product_list',{
