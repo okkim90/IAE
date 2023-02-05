@@ -689,6 +689,9 @@ section.main {
         .txt_box {
             padding: 24px 30px;
             background-color: #fff;
+            @include mobile {  
+                padding: 20px;
+            }
             .tit {
                 display: block;
                 font-size: 20px;
@@ -696,6 +699,10 @@ section.main {
                 text-overflow: ellipsis;
                 white-space: nowrap;
                 overflow: hidden;
+                @include mobile { 
+                    font-size: 16px;
+                    line-height: 1.5;
+                }
             }
             .desc {
                 font-size: 16px;
@@ -708,18 +715,28 @@ section.main {
                 -webkit-line-clamp: 2;
                 -webkit-box-orient: vertical;
                 overflow: hidden;
+                @include mobile { 
+                    font-size: 14px;
+                    line-height: 20px;
+                    max-height: 40px;
+                }
             }
             .cate {
                 color: #999;
                 border-top: 1px solid #eaeaea;
                 margin-top: 20px;
+                @include mobile { 
+                    margin-top: 14px;
+                }
                 span {
                     display: inline-flex;
                     font-size: 14px;
                     line-height: 1.5;
-                    margin-top: 9px;
+                    margin-top: 6px;
                     align-items: center;
-                   
+                    @include mobile { 
+                        font-size: 12px;
+                    }
                     &::after {
                         content: '';
                         display: block;
