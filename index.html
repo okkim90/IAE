@@ -709,19 +709,24 @@
 			},
 		}
 	});
-
+	
+	let win_h = $(this).height();
 	$(window).on('load resize',function(){
 		main_pf.update();
 		main_product.update();
-		let win_h = $(this).height();
-		if($(this).outerWidth() < 1260){
+		win_h = $(this).height();
+		mv_resize();
+	});
+
+	function mv_resize(){
+		if($(window).outerWidth() < 1260){
 			$('.mv_slide_item').outerHeight(win_h - 60);
 		}else{
 			$('.mv_slide_item').outerHeight(800);
 		}
-		
+	}
+	mv_resize();
 
-	});
 
 	const main_product = new Swiper('.main_product_list',{
 		slidesPerView: 1,
