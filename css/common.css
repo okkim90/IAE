@@ -377,7 +377,7 @@ textarea.inp-frm { height: 88px; padding: 8px 16px; box-sizing: border-box; }
 
 
 /*m-header style*/
-.m-gnb { display: none; position: fixed; z-index: 99999; top: 0; right: -100%; width: 100%; height: 100%; background: #1a95ce; }
+.m-gnb { display: block; position: fixed; z-index: 99999; top: 0; right: -100%; width: 100%; height: 100%; background: #1a95ce; }
 .m-gnb-bg { display: none; position: fixed; z-index: 99998; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, .5); }
 .m-gnb .top { display: flex; justify-content: space-between; align-items: center; position: relative; height: 60px; padding: 0 16px; box-sizing: border-box; border-bottom: 1px solid rgba(255,255,255,.1);}
 .m-gnb .m-logo { width: 126px; }

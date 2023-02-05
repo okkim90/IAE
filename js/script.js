@@ -73,12 +73,12 @@ $(function(){
 	
 	/*햄버거 메뉴*/
     $(".js-hamburger").click(function() {
-        $(".m-gnb").animate({"right": 0}, 500, "easeOutExpo");
-        $(".m-gnb, .m-gnb-bg").show();
+        $(".m-gnb").animate({"right": 0}, 500, 'easeInOutCubic');
+        $(" .m-gnb-bg").show();
     });
     $(".js-hamburger-close").click(function() {
-        $(".m-gnb").animate({"right": "-100%"}, 500, "easeOutExpo");
-        $(".m-gnb, .m-gnb-bg").hide();
+        $(".m-gnb").animate({"right": "-100%"}, 500, "easeInOutCubic");
+        $(".m-gnb-bg").hide();
     });
 	
 	
