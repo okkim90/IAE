@@ -688,7 +688,7 @@
 		let mv_search_pos = mv_search.offset().top;
 		mv_search.addClass('on');
 		$input.focus();
-		$('html, body').animate({'scrollTop':mv_search_pos - 200},400,'easeInOutCubic');
+		$('html, body').animate({'scrollTop':mv_search_pos - 200},0);
 	});
 	$('.btn_close_search').on('click',function(){
 		$('.mv_search').removeClass('on');
@@ -709,7 +709,7 @@
 			},
 		}
 	});
-	
+
 	let win_h = $(this).height();
 	$(window).on('load resize',function(){
 		main_pf.update();
