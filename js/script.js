@@ -3,6 +3,17 @@ function scrollToTop(){
 	$('html, body').animate({'scrollTop':0},500,'easeInOutCubic');
 }
 
+$(window).on('load scroll',function(){
+	let pos = this.scrollY;
+	let ftBtnTop = $('.ft-btn-top');
+	if(pos > 100){
+		ftBtnTop.addClass('on');
+	}else{
+		ftBtnTop.removeClass('on');
+	}
+});
+
+
 /*체크박스 전체선택해제*/
 function allCheckFunc(obj) {
 		$("[name=ck]").prop("checked", $(obj).prop("checked") );
