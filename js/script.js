@@ -6,10 +6,13 @@ function scrollToTop(){
 $(window).on('load scroll',function(){
 	let pos = this.scrollY;
 	let ftBtnTop = $('.ft-btn-top');
+	let header = $('.header');
 	if(pos > 100){
 		ftBtnTop.addClass('on');
+		header.addClass('on');
 	}else{
 		ftBtnTop.removeClass('on');
+		header.removeClass('on');
 	}
 });
 

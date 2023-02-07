@@ -337,10 +337,35 @@ textarea.inp-frm { height: 88px; padding: 8px 16px; box-sizing: border-box; }
 
 
 /*header style*/
-.header { position: fixed; top: 0; left: 0; right: 0; z-index: 100; width: 100%; background: #fff; border-bottom: 1px solid #eaeaea; }
+.header { position: fixed; top: 0; left: 0; right: 0; z-index: 100; width: 100%; background: #fff; }
 .header .depth { display: none; box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08); box-sizing: border-box; }
 .header:hover {border-bottom: none;}
 .header:hover .depth { display: block; }
+
+.header.on .hd {background-color: #1a95ce;}
+.header.on .hd .hd-logo {background-image: url(../img/common/logo_w.svg);}
+.header.on .gnb a {color: #fff;}
+.header.on .hd .hd-menu a {color: #fff;}
+
+.header.on .hd .hd-menu a .ico.ico-mypage {background-image: url(../img/common/ico_mypage_m.svg);}
+.header.on .hd .hd-menu a .ico.ico-logout {background-image: url(../img/common/ico_logout_m.svg);}
+.header.on .hd .hd-menu a .ico.ico-join {background-image: url(../img/common/ico_join_m.svg);}
+.header.on .hd .hd-menu a .ico.ico-login {background-image: url(../img/common/ico_login_m.svg);}
+.header.on .hd .hd-menu li::after {background-color: #fff;}
+
+.header.on:hover .hd .hd-menu a .ico.ico-mypage {background-image: url(../img/common/ico_mypage.svg);}
+.header.on:hover .hd .hd-menu a .ico.ico-logout {background-image: url(../img/common/ico_logout.svg);}
+.header.on:hover .hd .hd-menu a .ico.ico-join {background-image: url(../img/common/ico_join.svg);}
+.header.on:hover .hd .hd-menu a .ico.ico-login {background-image: url(../img/common/ico_login.svg);}
+.header.on:hover .hd .hd-menu li::after {background-color: #bababa;}
+
+.header.on:hover .hd {background-color: #fff;} 
+.header.on:hover .hd .hd-logo {background-image: url(../img/common/logo.svg);}
+.header.on:hover .gnb a {color: #333;}
+.header.on .gnb li:hover a {color: #1a95ce;}
+.header.on .gnb li.active a {color: #1a95ce;}
+.header.on:hover .hd .hd-menu a {color: #333;}
+
 
 .hd { position: relative; height: 120px; background: #fff; }
 .hd .inner { display: flex; justify-content: space-between; align-items: center; max-width: 1260px; height: 100%; margin: 0 auto; }
@@ -968,8 +993,11 @@ textarea.inp-frm { height: 88px; padding: 8px 16px; box-sizing: border-box; }
 	.list-frm2-v1 .th:nth-child(3), .list-frm2-v1 .td:nth-child(3) { width: 20%; }
 	
 	/*header style*/
+	.header.on:hover .hd {background-color: #1a95ce;}
+	.header.on:hover .hd .hd-logo {background-image: url(../img/common/logo_w.svg);}
+	.header.on .hd .hd-hamburger {background-image: url(../img/common/ico_hamburger_w.svg);}
 	.hd { height: 60px; }
-	.hd .inner { padding: 0 16px; border-bottom: 1px solid #eaeaea; box-sizing: border-box; }
+	.hd .inner { padding: 0 16px; box-sizing: border-box; }
 	.hd .hd-logo { width: 126px; height: 100%; }
 	.hd .hd-menu { display: none; }
 	.hd .hd-hamburger { display: block; width: 18px; height: 16px; border: none; background: url('../img/ico_hamburger1.svg') center center no-repeat; }
