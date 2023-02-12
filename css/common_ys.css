@@ -1,0 +1,100 @@
+.board-search .filter-group {
+    margin-right: 10px;
+}
+
+.list-board-v8 .td {flex-shrink: 0; order: 3;}
+.list-board-v8 .t-no { width: 8%; }
+.list-board-v8 .t-status { width: 10%; }
+.list-board-v8 .t-tit { flex: 1; min-width: 0;}
+.list-board-v8 .t-file { width: 7%; }
+.list-board-v8 .t-writer { width: 12%; min-width: 50px;}
+.list-board-v8 .t-date { width: 12%; }
+.list-board-v8 .t-view { width: 10%; }
+.list-board-v8 .t-public {width: 10%;}
+.list-board-v8 .t-answer {width: 10%;}
+
+
+.attach-group-nofile {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    background-color: #fff;
+    justify-content: center;
+    border: 1px dashed #e8e8e8;
+}
+
+.board-recruit-info-item {
+    display: flex;
+    font-size: 16px;
+    line-height: 1.7;
+    padding: 10px 20px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.board-recruit-info-item .tit {
+    width: 200px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.board-recruit-info-item .desc {
+    flex: 1;
+    min-width: 0;
+}
+
+.list-ck-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.list-ck-wrap .frm-info {
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 1280px) {
+    .board-search .filter-group {
+        margin-right: 0;
+    }
+
+
+    .list-board-v8 li {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .list-board-v8 .td,
+    .list-board-v8 .th {
+        width: auto;
+    }
+    .list-board-v8 .t-no,
+    .list-board-v8 .t-writer,
+    .list-board-v8 .t-date {
+        margin-right: 15px;
+    }
+    .list-board-v8 .t-tit {
+        margin: 10px 0;
+        flex: auto;
+        width: calc(100% - 40px);
+    }
+    .list-board-v8 .t-file {
+        width: 40px;
+    }
+    .list-board-v8 .t-no {order: 0;}
+    .list-board-v8 .t-public {order: 1; margin-right: 15px;}
+    .list-board-v8 .t-answer {order: 2;}
+
+
+    .board-recruit-info-item {
+        padding: 6px 16px;
+        font-size: 13px;
+        letter-spacing: -0.2px;
+    }
+    .board-recruit-info-item .tit {
+        width: 100px;
+    }
+
+    .list-ck-wrap {
+        display: block;
+    }
+    .list-ck-wrap .frm-info {
+        margin-top: 10px;
+    }
+}
