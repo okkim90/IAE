@@ -1,12 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
-  <defs>
-    <clipPath id="clip-path">
-      <rect id="사각형_1436" data-name="사각형 1436" width="16" height="16" fill="#fff" opacity="0"/>
-    </clipPath>
-  </defs>
-  <g id="delete_ic_s" transform="translate(-752.873)">
-    <g id="마스크_그룹_1" data-name="마스크 그룹 1" transform="translate(752.873)" clip-path="url(#clip-path)">
-      <path id="합치기_3" data-name="합치기 3" d="M11.744,12.785,6.5,7.543,1.259,12.785A.742.742,0,0,1,.737,13a.736.736,0,0,1-.519-1.259L5.459,6.5.218,1.259a.733.733,0,0,1,0-1.044A.722.722,0,0,1,.737,0a.73.73,0,0,1,.522.215L6.5,5.457,11.744.215A.722.722,0,0,1,12.263,0a.739.739,0,0,1,.523,1.259L7.544,6.5l5.242,5.241a.743.743,0,0,1,0,1.044.746.746,0,0,1-.523.215A.733.733,0,0,1,11.744,12.785Z" transform="translate(1.627 1.5)" fill="#c9c9c9"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+  <g id="ic_arrow_close" transform="translate(0 12) rotate(-90)">
+    <rect id="사각형_862" data-name="사각형 862" width="12" height="12" fill="none" opacity="0.4"/>
+    <rect id="사각형_865" data-name="사각형 865" width="8" height="8" transform="translate(2 2)" fill="none" opacity="0.4"/>
+    <path id="합치기_7" data-name="합치기 7" d="M3,3,0,6,3,3,0,0,3,3,6,0,3,3,6,6Z" transform="translate(3 3)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
   </g>
 </svg>

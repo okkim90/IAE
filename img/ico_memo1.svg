@@ -1,6 +1,0 @@
-<svg id="page" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-  <rect id="사각형_857" data-name="사각형 857" width="20" height="20" fill="none"/>
-  <rect id="사각형_860" data-name="사각형 860" width="16" height="16" transform="translate(2 2)" fill="none"/>
-  <rect id="사각형_960" data-name="사각형 960" width="14" height="15" rx="2" transform="translate(3 3)" fill="none" stroke="#535a75" stroke-width="2"/>
-  <path id="합치기_3" data-name="합치기 3" d="M.834,8.334a.833.833,0,0,1,0-1.667h5a.833.833,0,0,1,0,1.667ZM.834,5a.833.833,0,1,1,0-1.666h5A.833.833,0,1,1,5.835,5Zm0-3.333A.833.833,0,1,1,.834,0h5a.833.833,0,1,1,0,1.667Z" transform="translate(6.665 5.833)" fill="#535a75"/>
-</svg>

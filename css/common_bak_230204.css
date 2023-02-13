@@ -209,7 +209,7 @@ a.btn-custom-v1:focus { background: #f0f0f0; }
 .frm { position: relative; margin-bottom: 60px; }
 .frm:last-child { margin-bottom: 0; }
 .frm .required-info { display: flex; justify-content: flex-end; align-items: center; position: absolute; right: 0; margin-top: -28px; font-size: 14px; font-weight: 400; color: #999; text-align: right; }
-.frm .required-info .required { width: 7px; height: 7px; margin-right: 5px; border-radius: 50%; box-sizing: border-box; background: #ffc333;  }
+.frm .required-info .required { width: 7px; height: 7px; margin-right: 5px; border-radius: 50%; box-sizing: border-box; background: #ffc333; }
 
 .top-frm { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
 .top-frm .tit { font-size: 20px; font-weight: 500; color: #333; }

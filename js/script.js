@@ -203,6 +203,9 @@ $(function(){
 	$(".js-delete").click(function() {
         $(this).parent().remove();
     });
+	$(".js-delete2").click(function() {
+        $(this).parent().parent().parent().remove();
+    });
 	
 	
 	/*특정 셀렉트 옵션 선택시 노출*/
@@ -237,6 +240,21 @@ $(function(){
     $(".js-comment").on("keydown keyup", function() {
       $(this).height($(this).prop("scrollHeight")*0.45);
       $(this).next().addClass("active");
+    });
+	
+	
+	/*예약현황 토글*/
+	$(".js-reserve").click(function() {
+        $(".reserve-group").slideToggle();
+    });
+	
+	
+	/*예약현황 모달창*/
+	$(".js-reserve2").click(function() {
+        $(".reserve-group").show();
+    });
+	$(".js-reserve-close").click(function() {
+        $(".reserve-group").hide();
     });
 	
 	

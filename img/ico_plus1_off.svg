@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
-  <g id="ic_plus" transform="translate(-559.166 -24.166)">
-    <rect id="사각형_862" data-name="사각형 862" width="16" height="16" transform="translate(559.166 24.166)" fill="none" opacity="0.4"/>
-    <rect id="사각형_865" data-name="사각형 865" width="14" height="14" transform="translate(560.166 25.166)" fill="none" opacity="0.4"/>
-    <path id="합치기_2" data-name="합치기 2" d="M9229.166,13780.167v-5h-5a1,1,0,1,1,0-2h5v-5a1,1,0,0,1,2,0v5h5a1,1,0,1,1,0,2h-5v5a1,1,0,1,1-2,0Z" transform="translate(-8663 -13742)" fill="#333"/>
-  </g>
-</svg>
