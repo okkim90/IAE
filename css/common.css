@@ -601,7 +601,7 @@ textarea.inp-frm { height: 88px; padding: 8px 16px; box-sizing: border-box; }
 
 /*breadcrumb style*/
 .breadcrumb { display: flex; justify-content: center; align-items: center; }
-.breadcrumb a { display: flex; align-items: center; position: relative; margin-right: 30px; font-size: 14px; font-weight: 400; color: #999; }
+.breadcrumb a { display: flex; align-items: center; position: relative; margin-right: 30px; font-size: 14px; font-weight: 400; color: #ccc; }
 .breadcrumb a:last-child { margin-right: 0; }
 .breadcrumb a:after { content: ''; display: block; position: absolute; top: calc(50% - 7px); right: calc(0% - 22px); width: 14px; height: 14px; background: url('../img/ico_arrow_breadcrumb1.svg') center center no-repeat; background-size: contain; }
 .breadcrumb a:last-child:after { display: none; }
