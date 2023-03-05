@@ -245,16 +245,16 @@ $(function(){
 	
 	/*예약현황 토글*/
 	$(".js-reserve").click(function() {
-        $(".reserve-group").slideToggle();
+        $(".reserve-group").toggleClass("active");
     });
 	
 	
 	/*예약현황 모달창*/
 	$(".js-reserve2").click(function() {
-        $(".reserve-group").show();
+        $(".reserve-group").addClass("active");
     });
 	$(".js-reserve-close").click(function() {
-        $(".reserve-group").hide();
+        $(".reserve-group").removeClass("active");
     });
 	
 	

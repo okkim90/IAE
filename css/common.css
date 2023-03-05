@@ -695,6 +695,10 @@ textarea.inp-frm { height: 88px; padding: 8px 16px; box-sizing: border-box; }
 .tab-menu .tab:after { content: ''; display: block; position: absolute; top: calc(50% - 8px); right: -20px; width: 1px; height: 16px; background: #ccc; }
 .tab-menu .tab:last-child:after { display: none; }
 
+.tab-menu2 { display: flex; align-items: center; margin-bottom: 40px; }
+.tab-menu2 .tab { display: flex; justify-content: center; align-items: center; width: 50%; height: 56px; border-bottom: 1px solid #e8e8e8; box-sizing: border-box; background: #f9f9f9; font-size: 18px; font-weight: 400; color: #999; text-align: center; }
+.tab-menu2 .tab.active { border: 1px solid #e8e8e8; border-bottom: none; box-sizing: border-box; background: none; font-weight: 700; color: #333; }
+
 
 /*board style*/
 .board-group { margin-bottom: 60px; }
@@ -1134,6 +1138,9 @@ textarea.inp-frm { height: 88px; padding: 8px 16px; box-sizing: border-box; }
 	.tab-menu .tab:hover:before,
 	.tab-menu .tab.active:before { display: none; }
 	.tab-menu .tab:after { display: none; }
+	
+	.tab-menu2 { margin-bottom: 20px; }
+	.tab-menu2 .tab { height: 46px; font-size: 14px; }
 	
 	/*board style*/
 	.list-board li { display: block; padding: 15px 0; box-sizing: border-box; }

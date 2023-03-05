@@ -515,6 +515,22 @@
 .login-util a:last-child:before { display: none; }
 
 
+/*아이디 및 비밀번호 찾기*/
+.find { background: #fcfcfc; }
+.find .wrap { padding: 80px 0 20px; box-sizing: border-box; }
+.find .wrap > .box { max-width: 720px; margin: 0 auto; padding: 60px 48px; border-top: 8px solid #1a95ce; box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.05); box-sizing: border-box; background: #fff; }
+.find .top-page { margin-bottom: 40px; }
+.find .top-page .tit { font-weight: 500; text-align: center; }
+
+.frm-group-find .inp-frm { height: 56px; margin-bottom: 16px; }
+.frm-group-find .btn-custom { width: 100%; height: 56px; margin-top: 40px; }
+.frm-group-find .frm-message { display: flex; justify-content: center; align-items: center; height: 72px; margin-top: 40px; border: 1px solid #ff6363; box-sizing: border-box; background: #ffeeee; }
+.frm-group-find .frm-message .txt { font-size: 16px; font-weight: 400; color: #ff6363; text-align: center; }
+.frm-group-find .frm-message .txt img { margin-right: 4px; vertical-align: 0px; }
+.frm-group-find .find-result { display: flex; justify-content: center; align-items: center; height: 128px; border: 1px solid #e8e8e8; box-sizing: border-box; background: #f9f9f9; font-size: 16px; font-weight: 400; color: #333; text-align: center; }
+.frm-group-find .find-result strong { margin: 0 4px; font-weight: 700; color: #1a95ce; }
+
+
 /*회원가입*/
 .sign { background: #fcfcfc; }
 .sign .wrap { padding: 80px 0 20px; box-sizing: border-box; }
@@ -617,9 +633,12 @@
 .slide-gallery .pagination-group .swiper-pagination .swiper-pagination-bullet-active { background: #1a95ce; opacity: 1; }
 .slide-gallery .pagination-group .swiper-pagination .swiper-pagination-bullet-active:after { content: ''; display: block; position: absolute; top: calc(50% - 10px); left: calc(50% - 10px); width: 20px; height: 20px; background: url('../img/ico_graphic1.svg') center center no-repeat; }
 
-.reserve-group { display: none; margin-bottom: 60px; }
+.reserve-group { position: absolute; left: 0; right: 0; z-index: -1; width: calc(100% - 40px); margin: 0 auto 60px; opacity: 0; }
+.reserve-group.active { position: relative; z-index: 1; width: 100%; opacity: 1; }
 .reserve-group .box { display: flex; padding: 24px 20px; border: 1px solid #d8e4eb; box-sizing: border-box; }
 .reserve-group .calendar-group { width: 384px; margin-right: 40px; }
+.reserve-group .calendar-group #calendar { height: 384px; margin-bottom: 10px; }
+
 .reserve-group .calendar-group .simple-calendar { margin-bottom: 10px; border: 1px solid #eaeaea; box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.05); box-sizing: border-box; }
 .reserve-group .calendar-group .simple-calendar .calendar { padding: 20px 20px 10px; box-sizing: border-box; }
 .reserve-group .calendar-group .calendar .event-container { position: absolute; }
@@ -670,6 +689,7 @@
 .item-reserve .article-container { margin-top: 60px; }
 
 .reserve-group-v1 { width: 868px; margin: 20px 0 0 auto; }
+.reserve-group-v1.active { width: 868px; }
 .reserve-group-v1 .box { position: relative; padding: 70px 40px 45px; box-sizing: border-box; }
 .reserve-group-v1 .btn-close { position: absolute; top: 20px; right: 20px; width: 40px; height: 40px; border: none; background: url('../img/ico_x1.svg') center center no-repeat; }
 .reserve-group-v1 .state-group .box-table { max-height: 344px; }
@@ -971,6 +991,20 @@
 	.login-util { margin-bottom: 25px; }
 	.login-util a { font-size: 14px; }
 	
+	/*아이디 및 비밀번호 찾기*/
+	.find .wrap { padding: 50px 20px 0; box-sizing: border-box; }
+	.find .wrap > .box { padding: 40px 20px; box-sizing: border-box; }
+	.find .top-page { margin-bottom: 25px; }
+	.find .top-page .tit { font-size: 24px; }
+	
+	.frm-group-find { margin-bottom: 25px; }
+	.frm-group-find .inp-frm { height: 46px; margin-bottom: 10px; }
+	.frm-group-find .btn-custom { margin-top: 20px; height: 46px; }
+	.frm-group-find .frm-message { height: auto; margin-top: 20px; padding: 15px 10px; box-sizing: border-box; }
+	.frm-group-find .frm-message .txt { font-size: 14px; }
+	.frm-group-find .find-result { height: auto; padding: 30px 10px; box-sizing: border-box; }
+	.frm-group-find .find-result .txt { font-size: 14px; }
+	
 	/*회원가입*/
 	.sign .wrap { padding: 50px 20px 0; box-sizing: border-box; }
 	.sign .inner { padding: 40px 20px; box-sizing: border-box; }
@@ -1056,7 +1090,8 @@
 	
 	.item-reserve .article-container { margin-top: 40px; }
 	
-	.reserve-group-v1 { position: fixed; top: 0; left: 0; right: 0; z-index: 100; width: 100%; height: 100%; margin: 0 auto; background: #fff; overflow-y: auto; }
+	.reserve-group-v1 { top: 0; left: 0; right: 0; width: 100%; height: 100%; margin: 0 auto; background: #fff; overflow-y: auto; }
+	.reserve-group-v1.active { position: fixed; z-index: 100; width: 100%; }
 	.reserve-group-v1 .box { padding: 40px 20px 20px; border: none; box-sizing: border-box; }
 	.reserve-group-v1 .btn-close { top: 0; right: 10px; background-size: 30px; }
 	
