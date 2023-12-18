@@ -1,0 +1,385 @@
+$breakpoint-m: 1260px;
+// responsive - mediaquery
+@mixin mobile {
+    @media only screen and (max-width: #{$breakpoint-m}) {
+        @content;
+    }
+}
+
+.platform_intro {
+   
+    &_top {
+        display: flex;
+        padding-left: 10%;
+        padding-top: 55px;
+        @include mobile {
+            display: block;
+            padding-left: 0;
+            padding-top: 20px;
+        }
+        .quotes {
+            font-size: 120px;
+            color: #1a95ce;
+            opacity: 0.1;
+            margin-right: 52px;
+            font-weight: bold;
+            line-height: 1.2;
+            @include mobile {
+                display: block;
+                line-height: 1;
+                font-size: 78px;
+            }
+        }
+        .txt_box {
+            flex: 1;
+            @include mobile {
+                margin-top: -30px;
+            }
+            .tit {
+                font-size: 40px;
+                color: #1a95ce;
+                font-weight: bold;
+                @include mobile {
+                    font-size: 28px;
+                }
+            }
+            .desc {
+                font-size: 22px;
+                margin-top: 32px;
+                font-weight: 500;
+                @include mobile {
+                    font-size: 16px;
+                    margin-top: 16px;
+                }
+            }
+        }
+    }
+    &_img {
+        text-align: center;
+        margin-top: 100px;
+        padding: 60px;
+        background-color: #f9f9f9;
+        @include mobile {
+            margin-top: 48px;
+            padding: 24px;
+        }
+        img {
+            max-width: 100%;
+            &.m_only {
+                display: none;
+                @include mobile {
+                    display: inline-block;
+                }
+            }
+            &.pc_only {
+                @include mobile {
+                    display: none;
+                }
+            }
+            
+            
+        }
+
+    }
+}
+
+.platform_center {
+    &_1 {
+        height: 400px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        display: flex;
+        align-items: flex-end;
+        padding: 48px;
+        box-sizing: border-box;
+        background-image: url(../img/tmp/center_img1.png);
+        background-size: cover;
+        .txt_box {
+            color: #fff;
+            .tit {
+                font-size: 40px; 
+                &_e {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        @include mobile {
+            height: 36vw;
+            min-height: 240px;
+            padding: 20px;
+            .txt_box {
+                .tit {
+                    font-size: 24px; 
+                    &_e {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+    &_2 {
+        margin-top: 120px;
+        @include mobile {
+            margin-top: 60px;
+        }
+        .sec {
+            display: flex;
+            align-items: center;
+            @include mobile {
+                display: block;
+            }
+            .txt_box {
+                font-size: 18px;
+                color: #666;
+                p + p {
+                    margin-top: 24px;
+                }
+                @include mobile {
+                    font-size: 14px;
+                }
+                
+            }
+            img {
+                width: 100%;
+            }
+            .img_box {
+                flex-shrink: 0;
+            }
+            &1 {
+                .img_box {
+                    margin-right: 80px;
+                    width: 44.6%;
+                    @include mobile {
+                        width: 100%;
+                        margin-right: 0;
+                    }
+                }
+                @include mobile {
+                    .txt_box {
+                        margin-top: 40px;
+                    }
+                }
+            }
+            &2 {
+                .img_box {
+                    margin-left: 110px;
+                    width: 42.9%;
+                    @include mobile {
+                        width: 100%;
+                        margin-left: 0;
+                        margin-top: 40px;
+                    }
+                }
+            }
+        }
+        .slogan {
+            font-size: 48px;
+            padding: 100px 0;
+            text-align: center;
+            br {
+                display: none;
+            }
+            @include mobile {
+                font-size: 28px;
+                padding: 60px 0;
+                font-weight: normal;
+                br {
+                    display: block;
+                }
+            }
+        }
+    }
+    &_3 {
+        background-color: #f9f9f9;
+        padding: 80px 65px 60px;
+        margin-top: 100px;
+        @include mobile {
+            margin-top: 60px;
+            padding: 35px 25px 43px ;
+        }
+        .tit {
+            font-size: 32px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 60px;
+            br {
+                display: none;
+            }
+            @include mobile { 
+                font-size: 24px;
+                margin-bottom: 30px;
+                br {
+                    display: block;
+                }
+            }
+        }
+        .diagram {
+            @include mobile { 
+                
+            }
+            &_tit {
+                text-align: center;
+                width: 100%;
+                padding-bottom: 52px;
+                position: relative;
+                @include mobile {
+                    padding-bottom: 0;
+                    padding: 0 25px;
+                    box-sizing: border-box;
+                    z-index: 10;
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        width: 2px;
+                        height: 50%;
+                        left: 0;
+                        top: 0;
+                        background-color: #f9f9f9;
+                    }
+                }
+                img {
+                    position: relative;
+                    z-index: 1;
+                    
+                }
+                &::after {
+                    content: '';
+                    position: absolute;
+                    left: 50%;
+                    bottom: 0;
+                    width: 1px;
+                    height: 100%;
+                    background-color: #cdcdcd;
+                    @include mobile {
+                        left: 0;
+                        bottom: 50%;
+                        width: 50%;
+                        height: 1px;
+                    }
+                }
+               
+            }
+            &_items {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0 40px;
+                position: relative;
+                &::before {
+                    content: '';
+                    position: absolute;
+                    
+                    height: 1px;
+                    background-color: #cdcdcd;
+                    top: 12.5px;
+                    left: calc((100%/3 - (((3 - 1)/3)*40px))/2);
+                    right: calc((100%/3 - (((3 - 1)/3)*40px))/2);
+                    @include mobile {
+                        width: 1px;
+                        height: calc(100% + 100px);
+                        top: auto;
+                        bottom: 0;
+                        left: 0;
+                        right: auto;
+                        
+                    }
+                }
+                @include mobile {
+                    display: block;
+                }
+                
+            }
+            &_item {
+                flex: 1;
+                padding-top: 56px;
+                position: relative;
+                @include mobile { 
+                    padding-top: 0;
+                    padding-left: 25px;
+                    margin-top: 40px;
+                    &:last-child {
+                        &::before {
+                            content:'';
+                            position: absolute;
+                            width: 2px;
+                            height: 100%;
+                            background-color: #f9f9f9;
+                            left: 0;
+                            bottom: 0;
+                        }
+                    }
+                }
+                .dot {
+                    position: absolute;
+                    left: 50%;
+                    margin-left: -13px;
+                    top: 0;
+                    width: 26px;
+                    height: 26px;
+                    border: 1px solid #1a95ce;
+                    box-sizing: border-box;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #f9f9f9;
+                    &::after {
+                        content: '';
+                        width: 12px;
+                        height: 12px;
+                        background-color: #1a95ce;
+                        border-radius: 50%;
+                    }
+                    @include mobile { 
+                        left: -13px;
+                        margin-left: 0;
+
+                    }
+                }
+                
+                &_tit {
+                    display: block;
+                    font-size: 20px;
+                    font-weight: bold;
+                    text-align: center;
+                    margin-bottom: 16px;
+                    @include mobile {  
+                        text-align: left;
+                    }
+                }
+                &_cont {
+                    background-color: #f2f8fb;
+                    border: 1px solid #daeef8;
+                    padding: 16px;
+                    .cont_list {
+                        &_tit {
+                            display: block;
+                            margin-bottom: 8px;
+                            font-weight: bold;
+                            color: #1a95ce;
+                            font-size: 14px;
+                        }
+                        & + .cont_list_tit {
+                            margin-top: 16px;
+                        }
+                        li {
+                            padding-left: 0.8em ;
+                            position: relative;
+                            color: #666;
+                            font-size: 14px;
+                            & + li {
+                                margin-top: 8px;
+                            }
+                            &::before {
+                                content:'-';
+                                position: absolute;
+                                left: 0;
+                                top: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

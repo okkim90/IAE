@@ -1,0 +1,391 @@
+.platform_intro_top {
+  display: flex;
+  padding-left: 10%;
+  padding-top: 55px;
+}
+@media only screen and (max-width: 1260px) {
+  .platform_intro_top {
+    display: block;
+    padding-left: 0;
+    padding-top: 20px;
+  }
+}
+.platform_intro_top .quotes {
+  font-size: 120px;
+  color: #1a95ce;
+  opacity: 0.1;
+  margin-right: 52px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+@media only screen and (max-width: 1260px) {
+  .platform_intro_top .quotes {
+    display: block;
+    line-height: 1;
+    font-size: 78px;
+  }
+}
+.platform_intro_top .txt_box {
+  flex: 1;
+}
+@media only screen and (max-width: 1260px) {
+  .platform_intro_top .txt_box {
+    margin-top: -30px;
+  }
+}
+.platform_intro_top .txt_box .tit {
+  font-size: 40px;
+  color: #1a95ce;
+  font-weight: bold;
+}
+@media only screen and (max-width: 1260px) {
+  .platform_intro_top .txt_box .tit {
+    font-size: 28px;
+  }
+}
+.platform_intro_top .txt_box .desc {
+  font-size: 22px;
+  margin-top: 32px;
+  font-weight: 500;
+}
+@media only screen and (max-width: 1260px) {
+  .platform_intro_top .txt_box .desc {
+    font-size: 16px;
+    margin-top: 16px;
+  }
+}
+.platform_intro_img {
+  text-align: center;
+  margin-top: 100px;
+  padding: 60px;
+  background-color: #f9f9f9;
+}
+@media only screen and (max-width: 1260px) {
+  .platform_intro_img {
+    margin-top: 48px;
+    padding: 24px;
+  }
+}
+.platform_intro_img img {
+  max-width: 100%;
+}
+.platform_intro_img img.m_only {
+  display: none;
+}
+@media only screen and (max-width: 1260px) {
+  .platform_intro_img img.m_only {
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 1260px) {
+  .platform_intro_img img.pc_only {
+    display: none;
+  }
+}
+
+.platform_center_1 {
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  align-items: flex-end;
+  padding: 48px;
+  box-sizing: border-box;
+  background-image: url(../img/tmp/center_img1.png);
+  background-size: cover;
+}
+.platform_center_1 .txt_box {
+  color: #fff;
+}
+.platform_center_1 .txt_box .tit {
+  font-size: 40px;
+}
+.platform_center_1 .txt_box .tit_e {
+  font-size: 20px;
+}
+@media only screen and (max-width: 1260px) {
+  .platform_center_1 {
+    height: 36vw;
+    min-height: 240px;
+    padding: 20px;
+  }
+  .platform_center_1 .txt_box .tit {
+    font-size: 24px;
+  }
+  .platform_center_1 .txt_box .tit_e {
+    font-size: 14px;
+  }
+}
+.platform_center_2 {
+  margin-top: 120px;
+}
+@media only screen and (max-width: 1260px) {
+  .platform_center_2 {
+    margin-top: 60px;
+  }
+}
+.platform_center_2 .sec {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 1260px) {
+  .platform_center_2 .sec {
+    display: block;
+  }
+}
+.platform_center_2 .sec .txt_box {
+  font-size: 18px;
+  color: #666;
+}
+.platform_center_2 .sec .txt_box p + p {
+  margin-top: 24px;
+}
+@media only screen and (max-width: 1260px) {
+  .platform_center_2 .sec .txt_box {
+    font-size: 14px;
+  }
+}
+.platform_center_2 .sec img {
+  width: 100%;
+}
+.platform_center_2 .sec .img_box {
+  flex-shrink: 0;
+}
+.platform_center_2 .sec1 .img_box {
+  margin-right: 80px;
+  width: 44.6%;
+}
+@media only screen and (max-width: 1260px) {
+  .platform_center_2 .sec1 .img_box {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 1260px) {
+  .platform_center_2 .sec1 .txt_box {
+    margin-top: 40px;
+  }
+}
+.platform_center_2 .sec2 .img_box {
+  margin-left: 110px;
+  width: 42.9%;
+}
+@media only screen and (max-width: 1260px) {
+  .platform_center_2 .sec2 .img_box {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 40px;
+  }
+}
+.platform_center_2 .slogan {
+  font-size: 48px;
+  padding: 100px 0;
+  text-align: center;
+}
+.platform_center_2 .slogan br {
+  display: none;
+}
+@media only screen and (max-width: 1260px) {
+  .platform_center_2 .slogan {
+    font-size: 28px;
+    padding: 60px 0;
+    font-weight: normal;
+  }
+  .platform_center_2 .slogan br {
+    display: block;
+  }
+}
+.platform_center_3 {
+  background-color: #f9f9f9;
+  padding: 80px 65px 60px;
+  margin-top: 100px;
+}
+@media only screen and (max-width: 1260px) {
+  .platform_center_3 {
+    margin-top: 60px;
+    padding: 35px 25px 43px;
+  }
+}
+.platform_center_3 .tit {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.platform_center_3 .tit br {
+  display: none;
+}
+@media only screen and (max-width: 1260px) {
+  .platform_center_3 .tit {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  .platform_center_3 .tit br {
+    display: block;
+  }
+}
+.platform_center_3 .diagram_tit {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 52px;
+  position: relative;
+}
+@media only screen and (max-width: 1260px) {
+  .platform_center_3 .diagram_tit {
+    padding-bottom: 0;
+    padding: 0 25px;
+    box-sizing: border-box;
+    z-index: 10;
+  }
+  .platform_center_3 .diagram_tit::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 50%;
+    left: 0;
+    top: 0;
+    background-color: #f9f9f9;
+  }
+}
+.platform_center_3 .diagram_tit img {
+  position: relative;
+  z-index: 1;
+}
+.platform_center_3 .diagram_tit::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #cdcdcd;
+}
+@media only screen and (max-width: 1260px) {
+  .platform_center_3 .diagram_tit::after {
+    left: 0;
+    bottom: 50%;
+    width: 50%;
+    height: 1px;
+  }
+}
+.platform_center_3 .diagram_items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 40px;
+  position: relative;
+}
+.platform_center_3 .diagram_items::before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  background-color: #cdcdcd;
+  top: 12.5px;
+  left: calc((33.3333333333% - 26.6666666667px) / 2);
+  right: calc((33.3333333333% - 26.6666666667px) / 2);
+}
+@media only screen and (max-width: 1260px) {
+  .platform_center_3 .diagram_items::before {
+    width: 1px;
+    height: calc(100% + 100px);
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: auto;
+  }
+}
+@media only screen and (max-width: 1260px) {
+  .platform_center_3 .diagram_items {
+    display: block;
+  }
+}
+.platform_center_3 .diagram_item {
+  flex: 1;
+  padding-top: 56px;
+  position: relative;
+}
+@media only screen and (max-width: 1260px) {
+  .platform_center_3 .diagram_item {
+    padding-top: 0;
+    padding-left: 25px;
+    margin-top: 40px;
+  }
+  .platform_center_3 .diagram_item:last-child::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color: #f9f9f9;
+    left: 0;
+    bottom: 0;
+  }
+}
+.platform_center_3 .diagram_item .dot {
+  position: absolute;
+  left: 50%;
+  margin-left: -13px;
+  top: 0;
+  width: 26px;
+  height: 26px;
+  border: 1px solid #1a95ce;
+  box-sizing: border-box;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+}
+.platform_center_3 .diagram_item .dot::after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-color: #1a95ce;
+  border-radius: 50%;
+}
+@media only screen and (max-width: 1260px) {
+  .platform_center_3 .diagram_item .dot {
+    left: -13px;
+    margin-left: 0;
+  }
+}
+.platform_center_3 .diagram_item_tit {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 16px;
+}
+@media only screen and (max-width: 1260px) {
+  .platform_center_3 .diagram_item_tit {
+    text-align: left;
+  }
+}
+.platform_center_3 .diagram_item_cont {
+  background-color: #f2f8fb;
+  border: 1px solid #daeef8;
+  padding: 16px;
+}
+.platform_center_3 .diagram_item_cont .cont_list_tit {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #1a95ce;
+  font-size: 14px;
+}
+.platform_center_3 .diagram_item_cont .cont_list + .cont_list_tit {
+  margin-top: 16px;
+}
+.platform_center_3 .diagram_item_cont .cont_list li {
+  padding-left: 0.8em;
+  position: relative;
+  color: #666;
+  font-size: 14px;
+}
+.platform_center_3 .diagram_item_cont .cont_list li + li {
+  margin-top: 8px;
+}
+.platform_center_3 .diagram_item_cont .cont_list li::before {
+  content: "-";
+  position: absolute;
+  left: 0;
+  top: 0;
+}

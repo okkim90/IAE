@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=10,user-scalable=no">
+<title>디지털 융합 기술지원 플랫폼</title>
+<link rel="stylesheet" href="../css/common.css">
+<link rel="stylesheet" href="../css/modal.css">
+<link rel="stylesheet" href="../css/page.css">
+<link rel="stylesheet" href="../css/platform.css">
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="../js/jquery.easing.1.3.js"></script>
+<script src="../js/script.js"></script>
+</head>
+<body>
+
+<header class="header">
+	<div class="hd">
+		<div class="inner">
+			<a href="../index.html" class="hd-logo"></a>
+			
+			<ol class="gnb js-gnb">
+				<li><a href="#">서비스 소개</a></li>
+				<li><a href="#">장비정보</a></li>
+				<li><a href="#">커뮤니티</a></li>
+				<li><a href="#">알림마당</a></li>
+			</ol>
+			
+			<ol class="hd-menu">
+				<!--[D] 로그인 상태 -->
+				<li><a href="#"><i class="ico ico-mypage"></i> 마이페이지</a></li>
+				<li><a href="#"><i class="ico ico-logout"></i>로그아웃</a></li> 
+				<!-- 
+				[D] 로그아웃상태일때 
+				<li><a href="#"><i class="ico ico-join"></i>회원가입</a></li>
+				<li><a href="#"><i class="ico ico-login"></i>로그인</a></li> 
+				-->
+			</ol>
+			
+			<button type="button" class="hd-hamburger js-hamburger"></button>
+		</div>
+	</div>
+	
+	<div class="depth">
+		<ol class="lnb js-lnb">
+			<li>
+				<a href="#">플랫폼 소개</a>
+				<a href="#">센터 안내</a>
+				<a href="#">지원기관 안내</a>
+			</li>
+			
+			<li>
+				<a href="#">장비 통합 검색</a>
+				<a href="#">시험분석 장비</a>
+				<a href="#">시제품 제작 장비</a>
+				<a href="#">설계/해석 소프트웨어</a>
+				<a href="#">예약 현황</a>
+				<a href="#">장비 홍보</a>
+			</li>
+			
+			<li>
+				<a href="#">참여의향서 신청</a>
+				<a href="#">장비·S/W 정보 공유</a>
+				<a href="#">세미나/교육안내</a>
+				<a href="#">노하우 공유</a>
+				<a href="#">구인구직</a>
+				<a href="#">자유게시판</a>
+				<a href="#">Q&amp;A</a>
+			</li>
+			
+			<li>
+				<a href="#">공지사항</a>
+				<a href="#">자료실</a>
+				<a href="#">FAQ</a>
+				<a href="#">동향정보</a>
+			</li>
+		</ol>
+	</div>
+</header>
+
+<!--모바일 메뉴-->
+<div class="m-gnb">
+	<div class="top">
+		<a href="../index.html" class="m-logo"><img src="../img/common/logo_w.svg" alt="IAE 디지털 융합기술지원 플랫폼"></a>
+		<input type="button" value=" " class="m-gnb-close js-hamburger-close">
+	</div>
+	
+	<!--로그인 전-->
+	<div class="btn-group-bottom">
+		<!--[D] 로그인 상태 -->
+		<a href="#" class="btn"><i class="ico ico-join"></i> 회원가입</a>
+		<a href="#" class="btn"><i class="ico ico-login"></i> 로그인</a>
+		
+		<!--
+		[D] 로그아웃 상태 
+		<a href="#" class="btn"><i class="ico ico-join"></i> 회원가입</a>
+		<a href="#" class="btn"><i class="ico ico-login"></i> 로그인</a>
+		-->
+	</div>
+	
+	<ol class="list-m-gnb">
+		<li class="list-m-gnb-item">
+			<div class="menu js-fold">서비스 소개</div>
+			
+			<div class="depth js-unfold">
+				<div class="menu-group">
+					<a href="#" class="menu2">플랫폼 소개</a>
+				</div>
+				
+				<div class="menu-group">
+					<a href="#" class="menu2">센터 안내</a>
+				</div>
+				
+				<div class="menu-group">
+					<a href="#" class="menu2">지원기관 안내</a>
+				</div>
+			</div>
+		</li>
+		
+		<li class="list-m-gnb-item">
+			<div class="menu js-fold">장비정보</div>
+			
+			<div class="depth js-unfold">
+				<div class="menu-group">
+					<a href="#" class="menu2">장비 통합 검색</a>
+				</div>
+				
+				<div class="menu-group">
+					<a href="#" class="menu2">시험분석 장비</a>
+				</div>
+				
+				<div class="menu-group">
+					<a href="#" class="menu2">시제품 제작 장비</a>
+				</div>
+				
+				<div class="menu-group">
+					<a href="#" class="menu2">설계/해석 소프트웨어</a>
+				</div>
+				
+				<div class="menu-group">
+					<a href="#" class="menu2">예약 현황</a>
+				</div>
+				
+				<div class="menu-group">
+					<a href="#" class="menu2">장비 홍보</a>
+				</div>
+			</div>
+		</li>
+		
+		<li class="list-m-gnb-item">
+			<div class="menu js-fold">커뮤니티</div>
+
+			<div class="depth js-unfold">
+				<div class="menu-group">
+					<a href="#" class="menu2">장비·S/W 정보 공유</a>
+				</div>
+				
+				<div class="menu-group">
+					<a href="#" class="menu2">세미나/교육안내</a>
+				</div>
+				
+				<div class="menu-group">
+					<a href="#" class="menu2">노하우 공유</a>
+				</div>
+				
+				<div class="menu-group">
+					<a href="#" class="menu2">구인구직</a>
+				</div>
+				
+				<div class="menu-group">
+					<a href="#" class="menu2">자유게시판</a>
+				</div>
+				
+				<div class="menu-group">
+					<a href="#" class="menu2">Q&amp;A</a>
+				</div>
+			</div>
+		</li>
+		
+		<li class="list-m-gnb-item">
+			<div class="menu js-fold">알림마당</div>
+			
+			<div class="depth js-unfold">
+				<div class="menu-group">
+					<a href="#" class="menu2">공지사항</a>
+				</div>
+				
+				<div class="menu-group">
+					<a href="#" class="menu2">자료실</a>
+				</div>
+				
+				<div class="menu-group">
+					<a href="#" class="menu2">FAQ</a>
+				</div>
+				
+				<div class="menu-group">
+					<a href="#" class="menu2">동향정보</a>
+				</div>
+			</div>
+		</li>
+	</ol>
+</div>
+
+<div class="m-gnb-bg js-hamburger-close"></div>
+<!--//모바일 메뉴-->
+
+<section>
+	<div class="container">
+		<div class="sub-visual">
+			<div class="bg"></div>
+			<div class="tit-group">
+				<div class="tit">센터 안내</div>
+
+				<div class="breadcrumb">
+					<a href="../index.html"><img src="../img/ico_home1.svg" alt=" "></a>
+					<a href="#">플랫폼 소개</a>
+					<a href="locationt.html">센터 안내</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="wrapper">
+			<div class="wrap">
+				<div class="ly-group">
+					<div class="ly-l">
+						<div class="snb">
+							<div class="top">
+								<div class="tit">플랫폼 소개</div>
+							</div>
+
+							<div class="box">
+								<a href="#" class="menu ">플랫폼 소개</a>
+							</div>
+
+							<div class="box">
+								<a href="#" class="menu" active>센터 안내</a>
+							</div>
+
+							<div class="box">
+								<a href="#" class="menu">지원기관 안내</a>
+							</div>
+
+							<div class="box">
+								<a href="#" class="menu ">오시는 길</a>
+							</div>
+						</div>
+
+						<div class="m-snb">
+							<div class="dropdown">
+								<div class="tit fold js-fold">
+									<div class="menu">장비 통합 검색</div>
+								</div>
+
+								<div class="list js-unfold">
+									<a href="#">시험분석 장비</a>
+									<a href="#">시제품 제작 장비</a>
+									<a href="#">설계/해석 소프트웨어</a>
+									<a href="#">예약 현황</a>
+									<a href="#">장비 홍보</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="ly-r">
+						<div class="top-page">
+							<h3 class="tit">센터 안내</h3>
+						</div>
+                        <div class="platform_center_1">
+                            <div class="txt_box">
+                                <div class="tit">미래 모빌리티 부품 지원센터</div>
+                                <div class="tit_e">Future Mobility Parts Support Center</div>
+                            </div>
+                        </div>
+                        <div class="platform_center_2">
+                            <div class="sec sec1">
+                                <div class="img_box">
+                                    <img src="../img/tmp/center_img2.png" alt="">
+                                </div>
+                                <div class="txt_box">
+                                    <p>한국산업기술진흥원, 강원도, 원주시가 지원하고고등기술연구원에서 주관하여 설립한「미래 모빌리티 부품 지원센터」는 미래 모빌리티 부품 및 소재 관련 분석과 성능 평가를 지원합니다.</p>
+                                    <p>저희 지원센터는 미래 모빌리티 소재/부품 제조사 지원 뿐만 아니라 용역사업, 정부 사업 등의 적극적인 참여를 통해 미래 모빌리티 부품 관련 전문 지원센터로 지속적으로 성장해 나아가겠습니다. 많은 관심과 격려 부탁드립니다.</p>
+                                </div>
+                            </div>
+                            <h3 class="slogan">Future Mobility Parts  <br> Support Center</h3>
+                            <div class="sec sec2">                               
+                                <div class="txt_box">
+                                    <p>저희 지원센터는 미래 모빌리티 소재/부품 제조사 지원 뿐만 아니라 용역사업, 정부 사업 등의 적극적인 참여를 통해 미래 모빌리티 부품 관련 전문 지원센터로 지속적으로 성장해 나아가겠습니다. 많은 관심과 격려 부탁드립니다.</p>
+                                </div>
+                                <div class="img_box">
+                                    <img src="../img/tmp/center_img3.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="platform_center_3">
+                            <h3 class="tit">미래 모빌리티 부품 <br> 지원센터 비전</h3>
+                            <div class="diagram">
+                                <div class="diagram_tit">
+                                    <img src="../img/tmp/center_logo.svg" alt="">
+                                </div>
+                                <div class="diagram_items">
+                                    <div class="diagram_item">
+                                        <span class="dot"></span>
+                                        <strong class="diagram_item_tit">디지털 융합 설계 지원</strong>
+                                        <div class="diagram_item_cont">
+                                            <ul class="cont_list">
+                                                <li>제조 분석기술 등 DB 구축</li>
+                                                <li>디지털 융합 설계 지원 및 시뮬레이션 지원</li>
+                                                <li>소재부품 설계 최적화 지원</li>
+                                            </ul>
+                                            <strong class="cont_list_tit">지원 장비</strong>
+                                            <ul class="cont_list">
+                                                <li>신합금설계/해석 시뮬레이션시스템</li>
+                                                <li>부품설계/해석 시뮬레이션시스템</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="diagram_item">
+                                        <span class="dot"></span>
+                                        <strong class="diagram_item_tit">시험분석 및 성능 평가</strong>
+                                        <div class="diagram_item_cont">
+                                            <ul class="cont_list">
+                                                <li>성능시험평가 및 신뢰성평가 지원</li>
+                                                <li>KOLAS/ECE 등 인증 체계 지원</li>
+                                            </ul>
+                                            <strong class="cont_list_tit">지원 장비</strong>
+                                            <ul class="cont_list">
+                                                <li>만능재료시험기</li>
+                                                <li>윌휠 감속기 내구 시험기</li>
+                                                <li>조향부품 복합환경 진동내구성시험기</li>
+                                                <li>IDC/FDC/V2L 시험분석 시스템</li>
+                                                <li>미래자동차 부품성형용 멀티복합성형 프레스</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="diagram_item">
+                                        <span class="dot"></span>
+                                        <strong class="diagram_item_tit">시제품 제작 지원</strong>
+                                        <div class="diagram_item_cont">
+                                            <ul class="cont_list">
+                                                <li>시제품 제작 지원</li>
+                                                <li>기술사업화 지원</li>
+                                            </ul>
+                                            <strong class="cont_list_tit">지원 장비</strong>
+                                            <ul class="cont_list">
+                                                <li>3차원 시편 가공 설비</li>
+                                                <li>부품고도화용 신합금 제조 장비</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer class="footer">
+	<div class="ft">
+		<div class="inner">
+			<div class="fnb">
+				<div class="ft-menu">
+					<a href="#">센터소개</a>
+					<a href="#">이용약관</a>
+					<a href="#"><b>개인정보취급방침</b></a>
+				</div>
+			</div>
+			
+			<div class="ft-info">
+				<div class="company-info">
+					<div class="txt-group">
+						<div class="tit">대표번호</div>
+						<div class="txt">031-330-7114</div>
+					</div>
+					
+					<div class="txt-group">
+						<div class="tit">팩스</div>
+						<div class="txt">031-330-7111</div>
+					</div>
+					
+					<div class="txt-group w100">
+						<div class="tit">사업자등록번호</div>
+						<div class="txt">104-82-04565</div>
+					</div>
+					
+					<div class="txt-group w100">
+						<div class="tit">대표자</div>
+						<div class="txt">김덕중</div>
+					</div>
+					
+					<div class="txt-group w100">
+						<div class="tit">상호</div>
+						<div class="txt">고등기술연구원연구조합</div>
+					</div>
+					
+					<div class="txt-group w100">
+						<div class="tit">정보관리책임명</div>
+						<div class="txt">이정승</div>
+					</div>
+				</div>
+				
+				<div class="ft-cs">
+					<strong class="tit">고객센터</strong>
+					<p class="tel">031-330-7455</p>
+					<p class="desc">월~금 10:00~18:00 토,일,공휴일 휴무</p>
+				</div>
+			</div>
+			
+			<div class="ft-bottom">
+				<button type="button" class="ft-btn-top" onclick="scrollToTop();"><span class="blind">상단으로 이동</span></button>
+				<p class="ft-address">경기도 용인시 처인구 백암면 고안로 51번길 175-28 고등기술연구원연구조합</p>
+				<div class="copyright">ⓒ 고등기술연구원 시험분석센터. All Rights Reserved.</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>
