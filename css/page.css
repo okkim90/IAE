@@ -723,6 +723,64 @@
 .fc .fc-daygrid-day-number { padding: 10px !important; box-sizing: border-box; }
 
 
+/*20231215 추가*/
+/*지원기관 안내*/
+.list-item2 li { display: flex; align-items: flex-start; margin-bottom: 20px; padding: 20px; border: 1px solid #eaeaea; border-radius: 8px; box-sizing: border-box; }
+.list-item2 li:last-child { margin-bottom: 0; }
+.list-item2 .img-group { width: 240px; height: 160px; margin-right: 40px; }
+.list-item2 .item-info { width: calc(100% - 200px); }
+.list-item2 .item-info .item-name { margin-bottom: 6px; font-size: 20px; font-weight: 700; color: #333; }
+.list-item2 .item-info .item-desc { margin-bottom: 24px; font-size: 16px; font-weight: 400; color: #666; line-height: 24px; }
+.list-item2 .item-info .item-detail .txt-group .txt { margin-bottom: 4px; padding-left: 24px; box-sizing: border-box; text-indent: -24px; font-size: 14px; font-weight: 400; color: #666; }
+.list-item2 .item-info .item-detail .txt-group .txt:last-child { margin-bottom: 0; }
+.list-item2 .item-info .item-detail .txt-group .txt img { width: 20px; margin-right: 4px; }
+
+
+/*오시는 길*/
+.location-map { position: relative; margin-bottom: 80px; }
+.location-map .img-map { display: block; width: 100%; }
+.location-map .map-info { display: flex; justify-content: space-between; align-items: center; position: relative; width: calc(100% - 40px); margin: -30px auto 0; padding: 30px 0; box-sizing: border-box; background: #f2f8fb; }
+.location-map .map-info .txt-group { display: flex; flex-direction: column; justify-content: center; align-items: center; position: relative; width: 33.33%; }
+.location-map .map-info .txt-group:after { content: ''; display: block; position: absolute; top: calc(50% - 50px); right: 0; width: 1px; height: 100px; background: #ddd; }
+.location-map .map-info .txt-group:last-child:after { display: none; }
+.location-map .map-info .txt-group .ico { width: 40px; margin-bottom: 12px; }
+.location-map .map-info .txt-group .txt { font-size: 16px; font-weight: 400; color: #666; text-align: center; line-height: 24px; }
+
+.location-info .top-section { padding-bottom: 22px; border-bottom: 1px solid #000; box-sizing: border-box; }
+.location-info .top-section .tit { font-size: 20px; font-weight: 700; color: #333; }
+
+.list-location-info li { display: flex; border-bottom: 1px solid #eaeaea; box-sizing: border-box; }
+.list-location-info li:last-child { border-bottom: none; }
+.list-location-info .img-group { width: 113px; padding: 24px 0; box-sizing: border-box; }
+.list-location-info .img-group img { display: block; margin: 0 auto; }
+.list-location-info .location-guide { width: calc(100% - 113px); }
+.list-location-info .location-guide .txt-group { padding: 24px 0; border-bottom: 1px solid #eaeaea; box-sizing: border-box; }
+.list-location-info .location-guide .txt-group:last-child { border-bottom: none; }
+.list-location-info .location-guide .txt-group .tit { margin-bottom: 12px; font-size: 16px; font-weight: 700; color: #12516e; line-height: 24px; }
+.list-location-info .location-guide .txt-group .txt { font-size: 16px; font-weight: 400; color: #666; line-height: 24px; }
+
+
+/*장비 이용 안내*/
+.verify-message-v1 { background: #f2f8fb; }
+.verify-message-v1 .txt-group .tit { margin-bottom: 0; }
+
+.item-process { margin-bottom: 60px; }
+.item-process .top-section { margin-bottom: 20px; }
+.item-process .top-section .tit { font-size: 20px; font-weight: 700; color: #333; }
+.item-process .img { display: block; width: 100%; }
+.item-process .img.m { display: none; }
+
+.list-item-process { display: none; }
+
+.item-warn { margin-bottom: 60px; }
+.item-warn .top-section { margin-bottom: 24px; padding-bottom: 20px; border-bottom: 1px solid #000; box-sizing: border-box; }
+.item-warn .top-section .tit { font-size: 20px; font-weight: 700; color: #333; }
+
+.list-item-warn li { margin-bottom: 8px; padding-left: 10px; box-sizing: border-box; text-indent: -10px; font-size: 16px; font-weight: 400; color: #666; }
+.list-item-warn li:last-child { margin-bottom: 0; }
+.list-item-warn li:before { content: '-'; margin-right: 4px; }
+
+
 @media only screen and (max-width: 1280px) {
 	/*메인*/
 	.slide-banner { height: 120vw; /*max-height: 800px;*/ }
@@ -1097,4 +1155,52 @@
 	
 	/*풀캘린더*/
 	.fc .fc-daygrid-day-number { padding: 4px !important; box-sizing: border-box; }
+	
+	/*20231215 추가*/
+	/*지원기관 안내*/
+	.list-item2 li { display: block; }
+	.list-item2 .img-group { width: 100%; margin-right: 0; margin-bottom: 15px; }
+	.list-item2 .item-info { width: 100%; }
+	.list-item2 .item-info .item-name { margin-bottom: 4px; font-size: 18px; }
+	.list-item2 .item-info .item-desc { margin-bottom: 20px; font-size: 14px; line-height: 20px; }
+	
+	/*오시는 길*/
+	.location-map .map-info { display: block; padding: 0; }
+	.location-map .map-info .txt-group { width: 100%; padding: 20px 0; box-sizing: border-box; }
+	.location-map .map-info .txt-group:last-child { margin-bottom: 0; }
+	.location-map .map-info .txt-group:after { top: auto; left: 0; right: 0; bottom: 0; width: calc(100% - 60px); height: 1px; margin: 0 auto; }
+	.location-map .map-info .txt-group .ico { width: 30px; margin-bottom: 10px; }
+	.location-map .map-info .txt-group .txt { font-size: 14px; line-height: 20px; }
+	
+	.location-info .top-section { padding-bottom: 10px; }
+	.location-info .top-section .tit { font-size: 16px; }
+	
+	.list-location-info li { display: block; }
+	.list-location-info .img-group { width: auto; margin: 0 auto; padding: 20px 0 0; box-sizing: border-box; }
+	.list-location-info .location-guide { width: 100%; }
+	.list-location-info .location-guide .txt-group { padding: 20px 0; box-sizing: border-box; }
+	.list-location-info .location-guide .txt-group .tit { margin-bottom: 10px; font-size: 14px; line-height: 20px; }
+	.list-location-info .location-guide .txt-group .txt { font-size: 14px; line-height: 20px; }
+	.list-location-info .location-guide .txt-group .txt br { display: none; }
+	
+	/*장비 이용 안내*/
+	.verify-message .txt-group .tit { margin-bottom: 0; font-size: 14px; text-align: left; }
+	
+	.item-process .img { display: none; }
+	
+	.list-item-process { display: block; }
+	.list-item-process li { display: flex; align-items: center; position: relative; height: 77px; margin-bottom: 40px; padding: 0 28px; border: 2px solid #1a95ce; border-radius: 39px; box-sizing: border-box; }
+	.list-item-process li:after { content: ''; display: block; position: absolute; left: 0; right: 0; bottom: -34px; width: 24px; height: 24px; margin: 0 auto; background: url('../img/ico_arrow_bottom3.svg') center center no-repeat; }
+	.list-item-process .num { display: flex; justify-content: center; align-items: center; width: 28px; height: 28px; margin-right: 12px; border-radius: 50%; box-sizing: border-box; background: #1a95ce; font-size: 12px; font-weight: 700; color: #fff; text-align: center; }
+	.list-item-process .txt-group { width: calc(100% - 40px); }
+	.list-item-process .txt-group .tit { margin-bottom: 1px; font-size: 14px; font-weight: 400; color: #000; }
+	.list-item-process .txt-group .txt { font-size: 12px; font-weight: 400; color: #989898; }
+	
+	.list-item-process li:last-child { margin-bottom: 0; background: #1a95ce; }
+	.list-item-process li:last-child .num { background: #fff; color: #1a95ce; }
+	.list-item-process li:last-child .txt-group .tit { color: #fff; }
+	.list-item-process li:last-child .txt-group .txt { color: #b3d3e2; }
+	.list-item-process li:last-child:after { display: none; }
+	
+	.list-item-warn li { padding-left: 9px; box-sizing: border-box; text-indent: -9px; font-size: 14px; }
 }
