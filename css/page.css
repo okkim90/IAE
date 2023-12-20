@@ -780,6 +780,19 @@
 .list-item-warn li:last-child { margin-bottom: 0; }
 .list-item-warn li:before { content: '-'; margin-right: 4px; }
 
+.item-price .top-section { margin-bottom: 20px; }
+.item-price .top-section .tit { font-size: 20px; font-weight: 700; color: #333; }
+
+.item-price .tbl th,
+.item-price .tbl td { text-align: center; }
+.item-price .tbl th { border-right: 1px solid #eaeaea; box-sizing: border-box; }
+.item-price .tbl .t1 { width: 10%; }
+.item-price .tbl .t2 { width: 20%; }
+.item-price .tbl .t3 { width: 20%; }
+.item-price .tbl .t4 { width: 40%; }
+.item-price .tbl .t4-2 { width: 20%; }
+.item-price .tbl .t5 { width: 10%; border-right: none; }
+
 
 @media only screen and (max-width: 1280px) {
 	/*메인*/
@@ -1203,4 +1216,8 @@
 	.list-item-process li:last-child:after { display: none; }
 	
 	.list-item-warn li { padding-left: 9px; box-sizing: border-box; text-indent: -9px; font-size: 14px; }
+	
+	.item-price .table-group { overflow-x: auto; }
+	.item-price .tbl th,
+	.item-price .tbl td { font-size: 13px; }
 }
